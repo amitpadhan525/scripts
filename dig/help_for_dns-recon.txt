@@ -1,0 +1,18 @@
+To use dns-recon.sh You have 2 method 
+
+Method-1 
+Give exicutable permission to the dns-recon.sh file 
+command: chmod +x dns-recon.sh
+and then run 
+./dns-recon.sh <domain-1> <domain-2> <domain-3> ....
+
+Ex:
+./dns-recon.sh google.com microsoft.com github.com 
+
+Method-2 
+Directly run 
+bash dns-recon.sh <domain-1> <domain-2> <domain-3> ....
+
+Ex:
+bash dns-recon.sh google.com microsoft.com github.com 
+
