@@ -7,14 +7,21 @@ A curated collection of professional-grade Bash scripts for Linux system adminis
 ## 📂 Repository Structure
 
 ```text
-linux-bash-scripts/
+scripts/
 ├── push.sh                      # Advanced Git automation utility
 ├── README.md                    # Documentation
-└── system-info/                 # Diagnostic & Monitoring Suite
-    ├── CPU_info_colorfull.sh    # Premium CPU diagnostic dashboard
-    ├── CPU_info.sh              # Performance-optimized CPU report
-    ├── system_info_colorfull.sh # High-fidelity system overview
-    └── system_info.sh           # Clean, structured system summary
+├── d-bus/                       # D-Bus IPC inspection & message monitoring
+├── dig/                         # DNS query & network diagnostic scripts
+├── inotify/                     # Filesystem event monitoring tools
+├── log_analyzer/                # Log file parsing and pattern matching
+├── NameSpace/                   # Linux namespace isolation & sandboxing
+├── python/                      # Python automation companion scripts
+├── system-info/                 # Diagnostic & Monitoring Suite
+│   ├── CPU_info_colorfull.sh    # Premium CPU diagnostic dashboard
+│   ├── CPU_info.sh              # Performance-optimized CPU report
+│   ├── system_info_colorfull.sh # High-fidelity system overview
+│   └── system_info.sh           # Clean, structured system summary
+└── udev/                        # Udev device rule helpers & hardware hooks
 ```
 
 ---
@@ -70,14 +77,14 @@ These scripts are designed for modern Linux environments and utilize standard to
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/amitpadhan525/linux-bash-scripts.git
-    cd linux-bash-scripts
+    git clone https://github.com/amitpadhan525/scripts.git
+    cd scripts
     ```
 
 2.  **Make scripts executable:**
     ```bash
     chmod +x push.sh
-    chmod +x system-info/*.sh
+    find . -type f -name "*.sh" -exec chmod +x {} +
     ```
 
 ---
