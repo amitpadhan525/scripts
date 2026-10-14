@@ -111,5 +111,14 @@ Contributions are welcome! If you have a professional-grade script to add, pleas
 
 ---
 
+## 🎨 Companion Projects & Customization
+
+Looking to enhance your Arch Linux desktop alongside these system scripts? Check out our desktop ricing and login greeter suites:
+
+- 🌌 **[amitpadhan525/sddm-themes](https://github.com/amitpadhan525/sddm-themes)** — A curated suite of modern, glassmorphic SDDM login greeter themes engineered for Qt6 and Wayland with live clocks, animations, and custom typography.
+- ⚡ **[amitpadhan525/linux-dotfiles](https://github.com/amitpadhan525/linux-dotfiles)** — Modular Hyprland Wayland ricing environment powered by Catppuccin Mocha, Waybar, and Kitty.
+
+---
+
 ## 📝 License
 This project is open-source and available for personal and educational use.
