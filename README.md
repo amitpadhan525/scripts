@@ -19,6 +19,7 @@ scripts/
 ├── system-info/                 # Diagnostic & Monitoring Suite
 │   ├── CPU_info_colorfull.sh    # Premium CPU diagnostic dashboard
 │   ├── CPU_info.sh              # Performance-optimized CPU report
+│   ├── disk_io_benchmark.sh     # Storage I/O throughput & latency benchmark
 │   ├── system_info_colorfull.sh # High-fidelity system overview
 │   └── system_info.sh           # Clean, structured system summary
 └── udev/                        # Udev device rule helpers & hardware hooks
@@ -52,6 +53,7 @@ Highly optimized scripts that gather comprehensive system metrics with minimal e
 | **`system_info.sh`** | 📄 **Clean** | Perfectly aligned, `printf`-formatted report for terminal output or logging. |
 | **`CPU_info_colorfull.sh`** | 🔥 **Premium** | Detailed CPU analysis: Architecture, Topology, Frequencies, and Cache hierarchies with rich visuals. |
 | **`CPU_info.sh`** | ⚙️ **Standard** | Optimized diagnostic report calling `lscpu` only once for maximum speed. |
+| **`disk_io_benchmark.sh`** | ⚡ **Benchmark** | Measures sequential storage write/read speeds and throughput with safe temporary payload buffers. |
 
 **Usage:**
 ```bash
